@@ -1,0 +1,11 @@
+# trained weights are large; regenerate with src/train.py
+models/*.pt
+models/*.pth
+
+# runtime data
+data/*.db
+data/observations/
+data/uploads/
+output/
+__pycache__/
+*.pyc

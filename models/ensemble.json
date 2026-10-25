@@ -1,0 +1,59 @@
+{
+  "members": [
+    {
+      "checkpoint": "efficientnet_b0_256.pt",
+      "size": 256,
+      "weight": 1.0,
+      "val_top1": 0.8485,
+      "backbone": "efficientnet_b0"
+    },
+    {
+      "checkpoint": "efficientnet_b0_288.pt",
+      "size": 288,
+      "weight": 1.0,
+      "val_top1": 0.8636,
+      "backbone": "efficientnet_b0"
+    }
+  ],
+  "classes": [
+    "AV01",
+    "AV02",
+    "AV03",
+    "AV04",
+    "AV05",
+    "AV06",
+    "AV07",
+    "AV08",
+    "AV09",
+    "IN01",
+    "IN02",
+    "IN03",
+    "IN04",
+    "IN05",
+    "IN06",
+    "IN07",
+    "IN08",
+    "MA01",
+    "MA02",
+    "MA03",
+    "MA04",
+    "MA05",
+    "MA06",
+    "MA07",
+    "MA08",
+    "PL01",
+    "PL02",
+    "PL03",
+    "PL04",
+    "PL05",
+    "PL06",
+    "PL07",
+    "PL08"
+  ],
+  "temperature": 0.5,
+  "threshold": 0.45,
+  "val_frac": 0.2,
+  "seed": 42,
+  "created_at": "2026-10-25T16:18:14",
+  "eval_size": 224
+}
